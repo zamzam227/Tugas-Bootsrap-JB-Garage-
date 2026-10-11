@@ -1,4 +1,3 @@
-/* JB GARAGE — kustomisasi ringan di atas Bootstrap 5 (warna mengikuti logo) */
 :root{
   --jb-red:#9E2627; --jb-red-dark:#7A1B1C; --jb-gold:#F5C242; --jb-cyan:#3CB8C8;
   --bs-primary:#9E2627; --bs-primary-rgb:158,38,39;
@@ -17,7 +16,7 @@ section[id]{scroll-margin-top:72px}
 .btn-outline-light:hover{color:var(--jb-red)}
 .form-control:focus,.form-select:focus{border-color:var(--jb-red);box-shadow:0 0 0 .2rem rgba(158,38,39,.15)}
 
-/* Navbar (warna sama dengan latar logo supaya menyatu) */
+/* Navbar */
 .navbar-jb{background:var(--jb-red)}
 .navbar-jb .navbar-brand img{width:42px;height:42px;object-fit:cover;border-radius:10px}
 .navbar-jb .nav-link{font-weight:500}
